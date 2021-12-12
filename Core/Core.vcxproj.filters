@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Taberna">
+      <UniqueIdentifier>{E2A8462F-4E88-C5CA-57A0-50A1C3FE2B2C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Taberna.h" />
+    <ClInclude Include="src\Taberna\Application.h">
+      <Filter>Taberna</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taberna\Core.h">
+      <Filter>Taberna</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taberna\EntryPoint.h">
+      <Filter>Taberna</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taberna\Log.h">
+      <Filter>Taberna</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Taberna\Application.cpp">
+      <Filter>Taberna</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Taberna\Log.cpp">
+      <Filter>Taberna</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
